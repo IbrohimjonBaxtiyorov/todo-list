@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./app.css";
+
 export default function App() {
   const [todos, setTodos] = useState([]);
 
@@ -66,7 +67,7 @@ export default function App() {
               );
             })
           ) : (
-            <h2 className="titleoff">Malumotlar mavjud emas !</h2>
+            <h2 className="titleoff">Ma'lumotlar mavjud emas !</h2>
           )}
         </ul>
       </div>
