@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #1F3757, #131537);
+
+}
+
+.container {
+    margin: 200px auto;
+    padding: 0px 10px 0px 10px;
+}
+.input{
+    min-height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 22px;
+    font-weight: 400;
+    background-color: #F3F3F3;
+    color: #1F3757;
+}
+form{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.inputBtn{
+  min-height: 40px;
+  border-radius: 5px;
+  border:none;
+  font-size: 22px;
+  font-weight: 400;
+  background-color: #F3F3F3;
+  color:#1F3757;
+}
+.titleoff{
+    color: #ffffff;
+    font-size: 30px;
+   margin-left: -20px;
+}
+.list{
+    list-style: none;
+}
+.list h3{
+    color: wheat;
+    font-size: 30px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.deleteButton{
+    min-height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F3F3F3;
+    font-size: 22px;
+    color:#650909;
+}
+.editButton{
+    min-height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #F3F3F3;
+    font-size: 22px;
+    color:#09650b;   
+}
+.titleTodo{
+    text-align: center;
+    color: #F3F3F3;
+    font-size: 40px;
+}
